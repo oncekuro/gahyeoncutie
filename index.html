@@ -9,6 +9,7 @@
       color: maroon;
       text-align: center;
       font-size: 50px;
+      font-family: "Bangers", cursive;
     }
     h2 {
       color: maroon;
@@ -16,15 +17,31 @@
       font-size: 25px;
     }
 
-    .center {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-      max-width: 300px;
+    .container {
+      display: grid;
+      grid-template-columns: 250px 250px 250px;
+      grid-auto-rows: minmax(150px, auto);
+      grid-column-gap: 10px;
+      justify-content: center;
+    }
+
+    .gah1 {
+      grid-column: 1;
+    }
+
+    .gah2 {
+      grid-column: 2;
+    }
+
+    .gah3 {
+      grid-column: 3;
     }
   </style>
   <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
     <title>Welcome to my Gahyeon Shrine</title>
     <meta property="og:url" content="https://www.gahyeoncutie.com" />
     <meta property="og:description" content="Shrine for best girl" />
@@ -39,12 +56,24 @@
     <meta property="og:type" content="website" />
   </head>
   <body>
-    <h1>LEE GAHYEON</h1>
-    <img
-      src="https://66.media.tumblr.com/73726ea7fa404e47803db7d0bdd77a08/tumblr_pgrtr76jtH1xcgf4ro4_250.png"
-      alt="Best Girl"
-      class="center"
-    />
-    <h2>02.03.1999</h2>
+    <h1>Lee Gahyeon</h1>
+
+    <div class="container">
+      <div class="gah1">
+        <img
+          src="https://66.media.tumblr.com/73726ea7fa404e47803db7d0bdd77a08/tumblr_pgrtr76jtH1xcgf4ro4_250.png"
+        />
+      </div>
+      <div class="gah2">
+        <img
+          src="https://66.media.tumblr.com/e4df40a00e8cdf63a731a824c2ea3b95/tumblr_pgrtr76jtH1xcgf4ro1_250.png"
+        />
+      </div>
+      <div class="gah3">
+        <img
+          src="https://66.media.tumblr.com/c6bb11128003beb855f8f595d4acb918/tumblr_pgrtr76jtH1xcgf4ro7_250.png"
+        />
+      </div>
+    </div>
   </body>
 </html>
