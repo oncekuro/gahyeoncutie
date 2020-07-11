@@ -33,13 +33,9 @@ nav {
   margin: 0 auto;
   border-radius: 4px;
 }
+
 * {
   box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial;
 }
 
 .column {
