@@ -48,6 +48,7 @@ h1 {
   text-align: center;
   font-size: 70px;
   font-family: "Poppins", sans-serif;
+  padding: 20px;
 }
 h2 {
   color: White;
@@ -107,5 +108,5 @@ footer {
 
 .fancams {
   height: 500px;
-  padding: 50px;
+  padding: 15px;
 }
