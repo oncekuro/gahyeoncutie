@@ -8,7 +8,6 @@ body {
 nav a:link,
 nav a:visited {
   color: white;
-  -webkit-text-stroke: 1px black;
   text-decoration: none;
   display: inline-block;
   padding: 14px 25px;
@@ -18,35 +17,32 @@ nav {
   text-align: center;
   font-size: 25px;
   font-family: "Poppins", sans-serif;
-  background-color: #f1d4ff;
+  background-color: #2677a3;
   border-style: solid;
   border-width: 0px;
   margin-left: 500px;
   margin-right: 500px;
   border-radius: 4px;
-  box-shadow: 5px 5px rgb(174, 212, 228);
 }
 
 header {
-  background-color: #f1d4ff;
+  background-color: #2677a3;
   border-style: solid;
   border-width: 0px;
   margin-left: 500px;
   margin-right: 500px;
   margin-bottom: 5px;
   border-radius: 4px;
-  box-shadow: 5px 5px rgb(174, 212, 228);
 }
 
 main {
-  background-color: #f1d4ff;
+  background-color: #2677a3;
   border-style: solid;
   border-width: 0px;
   margin-left: 500px;
   margin-right: 500px;
   margin-top: 10px;
   border-radius: 4px;
-  box-shadow: 5px 5px rgb(174, 212, 228);
 }
 
 h1 {
@@ -54,14 +50,12 @@ h1 {
   text-align: center;
   font-size: 70px;
   font-family: "Poppins", sans-serif;
-  -webkit-text-stroke: 2px black;
 }
 h2 {
   color: White;
   text-align: center;
   font-size: 50px;
   font-family: "Poppins", sans-serif;
-  -webkit-text-stroke: 2px black;
 }
 
 p {
@@ -69,7 +63,6 @@ p {
   text-align: center;
   font-size: 25px;
   font-family: "Poppins", sans-serif;
-  -webkit-text-stroke: 1px black;
 }
 
 .container {
@@ -106,14 +99,13 @@ img {
 }
 
 footer {
-  background-color: #f1d4ff;
+  background-color: #2677a3;
   border-style: solid;
   border-width: 0px;
   margin-left: 500px;
   margin-right: 500px;
   margin-bottom: 5px;
   border-radius: 4px;
-  box-shadow: 5px 5px rgb(174, 212, 228);
 }
 
 .fancams iframe {
