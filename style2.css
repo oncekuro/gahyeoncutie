@@ -85,6 +85,14 @@ img {
   padding: 5px;
   color: White;
   text-align: left;
-  font-size: 14px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.blue {
+  padding: 5px;
+  color: White;
+  text-align: left;
+  font-size: 18px;
   font-family: "Poppins", sans-serif;
 }
