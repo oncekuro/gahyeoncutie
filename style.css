@@ -110,3 +110,8 @@ footer {
   height: 100%;
   padding: 15px;
 }
+
+main a:link,
+main a:visited {
+  color: white;
+  text-decoration: underline;

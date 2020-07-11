@@ -97,3 +97,8 @@ img {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
 }
+
+main a:link,
+main a:visited {
+  color: white;
+  text-decoration: none;
