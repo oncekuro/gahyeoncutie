@@ -38,15 +38,18 @@ nav {
   box-sizing: border-box;
 }
 
-.column {
-  float: left;
-  width: 25%;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 10px;
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
 }
 
-.row {
+main {
+  background-color: #39576e;
+  border-style: solid;
+  border-width: 0px;
   max-width: 1000px;
   margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 4px;
 }
