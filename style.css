@@ -5,7 +5,8 @@ body {
   background-size: cover;
 }
 
-a:link {
+a:link,
+a:visited {
   color: white;
   -webkit-text-stroke: 1px black;
   text-decoration: none;
