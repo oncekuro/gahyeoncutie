@@ -105,10 +105,7 @@ footer {
   border-radius: 4px;
 }
 
-.fancams iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.fancams {
+  height: 500px;
+  padding: 50px;
 }
