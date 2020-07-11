@@ -25,6 +25,7 @@ nav {
   margin-right: 500px;
   border-radius: 4px;
   width: 47%;
+  box-shadow: 5px 5px rgb(174, 212, 228);
 }
 
 header {
@@ -36,6 +37,7 @@ header {
   margin-bottom: 5px;
   border-radius: 4px;
   width: 47%;
+  box-shadow: 5px 5px rgb(174, 212, 228);
 }
 
 main {
@@ -47,6 +49,7 @@ main {
   margin-top: 10px;
   border-radius: 4px;
   width: 47%;
+  box-shadow: 5px 5px rgb(174, 212, 228);
 }
 
 h1 {
@@ -114,6 +117,7 @@ footer {
   margin-bottom: 5px;
   border-radius: 4px;
   width: 47%;
+  box-shadow: 5px 5px rgb(174, 212, 228);
 }
 
 .fancams iframe {
