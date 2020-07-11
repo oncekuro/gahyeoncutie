@@ -41,5 +41,12 @@ nav {
 .column {
   float: left;
   width: 25%;
+  max-width: 1000px;
+  margin: 0 auto;
   padding: 10px;
+}
+
+.row {
+  max-width: 1000px;
+  margin: 0 auto;
 }
